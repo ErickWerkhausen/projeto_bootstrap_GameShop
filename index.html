@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Games Shop</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./main.css">
+
+  <style>
+    .card {
+      margin: 20px;
+    }
+
+  </style>
+
+</head>
+
+<body class="text-bg-dark">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark broder-bottom border-body "
+      data-bs-theme="dark">
+      <div class=" container-fluid ">
+        <h1 class=" navbar-brand   fs-3" href="#">Games Shop</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center " id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active " aria-current="page" href="#">Ícicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Promocões</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item " href="#">Ação</a></li>
+                <li><a class="dropdown-item " href="#">RPG</a></li>
+                <li><a class="dropdown-item " href="#">Estratégia</a></li>
+                <li><a class="dropdown-item " href="#">Aventura</a></li>
+                <li><a class="dropdown-item " href="#">Esportes</a></li>
+                <li><a class="dropdown-item " href="#">Corridas</a></li>
+                <li><a class="dropdown-item " href="#">Simulação</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div class="input-group ">
+              <input type="text" class="form-control border border-light rounded-start-pill" placeholder=" Pesquisar"
+                aria-label="Input group example" aria-describedby="basic-addon1">
+              <button class="btn btn-outline-light rounded-end-circle " type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+              </button>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div id="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <button>
+              <img src="https://via.placeholder.com/1920x500" class="d-block w-100" alt="...">
+            </button>
+          </div>
+          <div class="carousel-item">
+            <button>
+              <img src="https://via.placeholder.com/1920x500" class="d-block w-100" alt="...">
+            </button>
+          </div>
+          <div class="carousel-item">
+            <button>
+              <img src="https://via.placeholder.com/1920x500" class="d-block w-100" alt="...">
+            </button>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="container ">
+    <header style="margin-top: 10px;" >
+      <div class="d-flex justify-content-between border border-primary rounded-pill bg-prima">
+        <H1 class="text-start  " style="padding-left: 10px;">Promocões</H1>
+        <button class="btn btn-outline-primary rounded-end-5"> Ver mais</button>
+      </div>
+        
+    </header>
+    <div class="row g-5 ">
+      <div class="  col col-lg-4 col-md-6  ">
+        <div class="card" >
+          <img src="https://via.placeholder.com/500x300 " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nome do Jogo</h5>
+            <p class="card-text"> R$ 9999,99</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="  col col-lg-4 col-md-6  ">
+        <div class="card" >
+          <img src="https://via.placeholder.com/500x300 " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nome do Jogo</h5>
+            <p class="card-text"> R$ 9999,99</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="  col col-lg-4 col-md-6  ">
+        <div class="card" >
+          <img src="https://via.placeholder.com/500x300 " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nome do Jogo</h5>
+            <p class="card-text"> R$ 9999,99</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="  col col-lg-4 col-md-6  ">
+        <div class="card" >
+          <img src="https://via.placeholder.com/500x300 " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nome do Jogo</h5>
+            <p class="card-text"> R$ 9999,99</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="  col col-lg-4 col-md-6  ">
+        <div class="card" >
+          <img src="https://via.placeholder.com/500x300 " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nome do Jogo</h5>
+            <p class="card-text"> R$ 9999,99</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="  col col-lg-4 col-md-6  ">
+        <div class="card" >
+          <img src="https://via.placeholder.com/500x300 " class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nome do Jogo</h5>
+            <p class="card-text"> R$ 9999,99</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+    "></script>
+
+</html>
